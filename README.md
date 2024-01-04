@@ -1,9 +1,9 @@
-# React Radix Theme Template
+# vite edgecase hmr whitepage
 
-## Tech Stack
+Maybe `vitejs/react-swc` hmr bug. If hmr failed, not can not full reload the page.
 
-- Radix Color
-- TaliwindCSS
-- TanStack Router
-- Vite
-- Jotai
+## Steps
+
+1. start dev
+1. Change `src/providers/router.tsx` `indexRoute` props of component.
+1. Page not full page, and page is blank at this time.
